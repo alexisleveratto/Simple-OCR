@@ -23,14 +23,20 @@ The output can now be converted to other mediums such as word documents, PDFs, o
 
 ## How to use.
 1. Download.  
-´git clone https://github.com/alexisleveratto/Simple-OCR.git´
+```bash
+git clone https://github.com/alexisleveratto/Simple-OCR.git
+```
 2. Install necessary packages.  
-´pip install -r requirements.txt´
+```bash
+pip install -r requirements.txt
+```
 3. Run project.
-* ´cd /src´
-* ´export FLASK_APP=ocr.py´
-* ´flask run´
+```bash
+$ cd /src
+$ export FLASK_APP=ocr.py
+$ flask run
+```
 4. Browse to the image or pdf. You can use the one named ´tax-notice.png´ in the repository
 3. Put a phrase or words to look for. If you don't put anything the whole text would be returned.
 
-<sup>[Source](https://stackabuse.com/pytesseract-simple-python-optical-character-recognition/)</sup>
+<sup>[Theory Source](https://stackabuse.com/pytesseract-simple-python-optical-character-recognition/)</sup>
