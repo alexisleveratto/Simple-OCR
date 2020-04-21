@@ -36,7 +36,7 @@ $ cd /src
 $ export FLASK_APP=ocr.py
 $ flask run
 ```
-4. Browse to the image or pdf. You can use the one named ´tax-notice.png´ in the repository
+4. Browse to the image or pdf. You can use the one named ```tax-notice.png``` in the repository
 3. Put a phrase or words to look for. If you don't put anything the whole text would be returned.
 
 <sup>[Theory Source](https://stackabuse.com/pytesseract-simple-python-optical-character-recognition/)</sup>
