@@ -28,7 +28,7 @@ $ git clone https://github.com/alexisleveratto/Simple-OCR.git
 ```
 2. Install necessary packages.  
 ```bash
-$ mpip install -r requirements.txt
+$ pip install -r requirements.txt
 ```
 3. Run project.
 ```bash
