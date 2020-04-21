@@ -26,4 +26,4 @@ The output can now be converted to other mediums such as word documents, PDFs, o
 2. Browse to the image or pdf.
 3. Put a phrase or words to look for.
 
-^### (Source)[https://stackabuse.com/pytesseract-simple-python-optical-character-recognition/]^
+^[Source](https://stackabuse.com/pytesseract-simple-python-optical-character-recognition/)^
