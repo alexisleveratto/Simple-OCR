@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Upload Tax Notice</title>
+</head>
+ <body>
+    <form action="" method="POST" enctype="multipart/form-data">
+        {{ form.hidden_tag() }}
+        <p>
+            {{ form.file_path.label }}
+            {{ form.file_path(size=64) }}
+            {% for error in form.file_path.errors %}
+            <span style="color: red;">[{{ error }}]</span>
+            {% endfor %}
+        </p>
+        <p>
+            {{ form.search_words.label }}
+            {{ form.search_words(size=64) }}
+            {% for error in form.search_words.errors %}
+            <span style="color: red;">[{{ error }}]</span>
+            {% endfor %}
+        </p>
+        <p>{{ form.submit() }}</p>
+
+        {% if found_paragrahps %}
+        <p> The training paragraphs from the tax notice above are: 
+            {% for paragraph in found_paragrahps %}
+            <b> {{ paragraph }} </b>
+            {% endfor %}
+        </p>
+        {% else %}
+        The training paragraphs will be displayed here.
+        {% endif %}
+    </form>
+ </body>
+</html>
