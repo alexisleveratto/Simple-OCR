@@ -24,11 +24,11 @@ The output can now be converted to other mediums such as word documents, PDFs, o
 ## How to use.
 1. Download.  
 ```bash
-git clone https://github.com/alexisleveratto/Simple-OCR.git
+$ git clone https://github.com/alexisleveratto/Simple-OCR.git
 ```
 2. Install necessary packages.  
 ```bash
-pip install -r requirements.txt
+$ mpip install -r requirements.txt
 ```
 3. Run project.
 ```bash
