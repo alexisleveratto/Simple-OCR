@@ -22,8 +22,15 @@ The process may not be 100% accurate and might need human intervention to correc
 The output can now be converted to other mediums such as word documents, PDFs, or even audio content through text-to-speech technologies.
 
 ## How to use.
-1. Download
-2. Browse to the image or pdf.
-3. Put a phrase or words to look for.
+1. Download.  
+´git clone https://github.com/alexisleveratto/Simple-OCR.git´
+2. Install necessary packages.  
+´pip install -r requirements.txt´
+3. Run project.
+* ´cd /src´
+* ´export FLASK_APP=ocr.py´
+* ´flask run´
+4. Browse to the image or pdf. You can use the one named ´tax-notice.png´ in the repository
+3. Put a phrase or words to look for. If you don't put anything the whole text would be returned.
 
 <sup>[Source](https://stackabuse.com/pytesseract-simple-python-optical-character-recognition/)</sup>
